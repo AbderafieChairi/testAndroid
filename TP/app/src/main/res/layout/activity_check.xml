@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Check">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-27dp">
+
+        <TextView
+            android:id="@+id/challenge1_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="121dp"
+            android:layout_marginBottom="623dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/challenge2_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="122dp"
+            android:layout_marginBottom="572dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="250dp"
+            android:layout_marginBottom="621dp"
+            android:text="Challenge 1 reçu : " />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="247dp"
+            android:layout_marginBottom="570dp"
+            android:text="Challenge 2 reçu : " />
+
+        <Button
+            android:id="@+id/buttoncancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="224dp"
+            android:layout_marginBottom="436dp"
+            android:text="cancel"
+            android:onClick="onCancelButton"/>
+
+        <Button
+            android:id="@+id/buttonok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="92dp"
+            android:layout_marginBottom="437dp"
+            android:text="ok"
+            android:onClick="onOkButton"/>
+
+        <EditText
+            android:id="@+id/edittextcheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="505dp"
+            android:ems="10"
+            android:inputType="number"
+            android:text="" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
